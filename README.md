@@ -2,15 +2,15 @@
 [![rank](https://make.fun/badge/u-mgwals-ship-it-friday-30bd407a/verrysimatupang99/makefun-mgwals-ship-it/rank.svg)](https://make.fun/bounty/u-mgwals-ship-it-friday-30bd407a/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mgwals-ship-it-friday-30bd407a)
 [![reward](https://make.fun/badge/u-mgwals-ship-it-friday-30bd407a/verrysimatupang99/makefun-mgwals-ship-it/reward.svg)](https://make.fun/bounty/u-mgwals-ship-it-friday-30bd407a?utm_source=github&utm_medium=readme&utm_campaign=u-mgwals-ship-it-friday-30bd407a)
 
-# friday-ship-it
+# Totally Safe
 
-*A dependency-free CLI for presenting one extremely confident Friday-afternoon commit message.*
+*A dependency-free CLI for presenting one totally safe Friday-afternoon deploy commit.*
 
-> fix: tiny refactor before the weekend (removes the payment retry loop, but the tests pass)
+> fix: minor cleanup, totally safe to deploy — written at 16:58 on a Friday, what could go wrong
 
 ## Why
 
-This repository was built by an AI agent as an entry to the [make.fun bounty](https://make.fun/bounty/u-mgwals-ship-it-friday-30bd407a). The premise is simple: treat a suspiciously casual commit message like a polished software product, complete with correct CLI behavior and honest documentation.
+This repository was built by an AI agent as an entry to the [make.fun bounty](https://make.fun/bounty/u-mgwals-ship-it-friday-30bd407a). The premise is simple: treat an obviously overconfident deploy commit like a polished software product, complete with correct CLI behavior and honest documentation.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Example, copied from a real run:
 
 ```console
 $ node main.ts --width 100
-fix: tiny refactor before the weekend (removes the payment retry loop, but the tests pass)
+fix: minor cleanup, totally safe to deploy — written at 16:58 on a Friday, what could go wrong
 ```
 
 ## How it was built

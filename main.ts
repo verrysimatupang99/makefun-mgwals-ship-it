@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 
 /**
- * friday-ship-it
+ * totally-safe
  *
- * A dependency-free CLI that presents one very specific commit message with
- * the ceremony it clearly does not deserve.
+ * A dependency-free CLI that presents one very specific deploy commit message
+ * with the confidence it clearly has not earned.
  */
 
 const ENTRY_LINE =
-  "fix: tiny refactor before the weekend (removes the payment retry loop, but the tests pass)";
+  "fix: minor cleanup, totally safe to deploy — written at 16:58 on a Friday, what could go wrong";
 const VERSION = "1.0.0";
-const NAME = "friday-ship-it";
+const NAME = "totally-safe";
 const MIN_WIDTH = 25;
 const MAX_WIDTH = 160;
 
@@ -58,7 +58,7 @@ function defaultWidth(): number {
 function usage(): string {
   return `${NAME} ${VERSION}
 
-Present the canonical Friday-afternoon commit message.
+Present the canonical totally safe Friday-afternoon deploy commit.
 
 Usage:
   node main.ts [options]
@@ -259,7 +259,7 @@ function renderFancy(options: CliOptions): string {
   const messageLines = wrapText(ENTRY_LINE, innerWidth).map((line) =>
     boxLine(style(line, ANSI.bold), innerWidth),
   );
-  const footerText = "tests: passing · retry loop: gone";
+  const footerText = "friday 16:58 · what could go wrong";
   const footer = footerText.length <= innerWidth
     ? boxLine(style(footerText, ANSI.green), innerWidth)
     : null;
